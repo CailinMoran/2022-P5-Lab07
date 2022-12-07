@@ -2,8 +2,7 @@ import java.awt.*;
 import java.applet.*;
 
 public class Lab07 extends Applet{
-    public void paint(Graphics g)
-    {
+    public void paint(Graphics g) {
         Background.drawWater(g);
         Background.drawSky(g);
 
@@ -15,9 +14,7 @@ public class Lab07 extends Applet{
         Fish.drawBody(g);
         Fish.drawHead(g);
         Fish.drawEye(g);
-
-
-
-
+        Fish.drawArmfin(g);
+        Fish.drawTopfin(g);
     }
 }
